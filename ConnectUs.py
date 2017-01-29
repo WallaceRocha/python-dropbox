@@ -1,9 +1,12 @@
+#Esta é uma simples aplicação de gerencia de versão criada com a linguagem de programação python, usando a api do Dropbox.
+#Foi criada durante a apresentação de projetos em sala de aula.
+#O sistema usado foi um linux, logo terá que criar as pastas da maneira correta ou alterando linhas como a 25 e 28
 import dropbox
 import os
 import time
 from dropbox.files import WriteMode
 #------------------------------------Início do programa------------------------#
-client = dropbox.Dropbox('071tkC7_q5AAAAAAAAAAFjafxfQXYwu9SRhfH1vSMeyTICenpYLhm8z5G8j52pVS')#token do cliente
+client = dropbox.Dropbox('Digite o token do dropbox')#token pode ser conseguido na pagina de desenvolvedor dropbox.
 nomeUser = input('Digite o seu nome:  ')
 os.system('clear')
 while True:
